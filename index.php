@@ -53,6 +53,27 @@
         echo "Hello $name";
     }
     sayHello("John");
+
+    // swap two variables using a tempoary third variable 
+    $a = 10;
+    $b = 20;
+    $temp = $a;
+    $a = $b;
+    $b = $temp;
+    echo "<br> $a";
+    echo "<br> $b";
+
+    // check data types using var_dump 
+    echo "<br>";
+    var_dump($name);
+    echo "<br>";
+    var_dump($age);
+    echo "<br>";
+    var_dump($height);
+    echo "<br>";
+    var_dump($is_married);
+    echo "<br>";
+    var_dump($hobbies);
 ?>
 
 <!-- php statements -->
